@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node scripts/gen-icons.js)",
+      "Bash(pnpm build:*)",
+      "Bash(npx tsc:*)",
+      "Bash(node_modules/.bin/next build:*)",
+      "Bash(rm -rf .next)",
+      "Bash(npx next:*)"
+    ]
+  }
+}
